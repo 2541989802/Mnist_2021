@@ -1,0 +1,78 @@
+canvas {
+	background:#ccc;
+	display:block;
+	margin:0 auto;
+}
+h1 {
+	text-align: center;
+}
+#controls {
+	width:200px;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+	background:linear-gradient(to bottom,#000000,#b8b8b8);
+	user-select:none;
+}
+#controls section {
+	margin-top:10px;
+	height:20px;
+}
+#controls .label {
+	width:50%;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	color:#FFF;
+	display:block;
+	float:left;
+}
+#xing {
+	float:right;
+	width:50%;
+	height:20px;
+}
+/*#shape {
+	*/
+        /*width:50%;
+	height:20px;
+	display:block;
+	*/
+        /*
+}
+*/
+        #controls .color {
+	width:50%;
+	height:auto;
+	float:right;
+}
+#colors input {
+	float:right;
+	width:48%;
+	height:20px;
+	border:none;
+}
+#widths input {
+	float:right;
+	width:49%;
+	height:20px;
+	border:none;
+}
+#style {
+	float:right;
+	width:49%;
+	height:20px;
+	border:none;
+}
+input[type=button] {
+	width:150px;
+	height:30px;
+	background:#C40000;
+	color:#FFF;
+	border-radius:5px;
+	margin-top:10px;
+	margin-left:10px;
+	border:none;
+	display:block;
+}
