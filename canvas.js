@@ -18,7 +18,7 @@ shape.onchange = function() {
     s = this.value;
 };
 var c = "#000";
-var w = "4";
+var w = "3";
 var st = "stroke";
 
 canvas.onmousedown = function(e) {
